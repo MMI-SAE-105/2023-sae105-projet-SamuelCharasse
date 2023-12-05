@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main/css/main.css">
+    <link rel="stylesheet" href="/src/css/main.css">
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Vague Abyssale</title>
@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <a href="#" x-data="{isActive: window.location.pathname==='/index.html'}" :class="{'hidden': isActive}">
-            <img class="header__logo" src="/main/assets/icons/Wave_logo_blue.svg" alt="">
+            <img class="header__logo" src="/public/icons/Wave_logo_blue.svg" alt="">
         </a>
         <div class="header__div">
             <a href="#">
@@ -20,7 +20,7 @@
         <a href="#">
             <p class="header__en">EN</p>
         </a>
-        <a href="#"><img aria-controls="mainNav" @click="navIsOpen = ! navIsOpen" class="header__menu--btn" src="/main/assets/icons/wave-fill.svg" alt="Menu icon"></a>
+        <a href="#"><img aria-controls="mainNav" @click="navIsOpen = ! navIsOpen" class="header__menu--btn" src="/public/icons/wave-fill.svg" alt="Menu icon"></a>
         </div>
     </header>
     <div>
@@ -36,7 +36,7 @@
     </div>
     <section id="landing_page_title_fr">
         <div class="title">
-            <img class="title__img" src="/main/assets/icons/Wave_logo_black.svg" alt="">
+            <img class="title__img" src="/public/icons/Wave_logo_black.svg" alt="">
             <h1 class="title__h1">Vague Abyssale</h1>
         </div>
     </section>
@@ -46,7 +46,7 @@
     </div>
     <section id="articles_landingpage">
         <div class="article__landingpage">
-            <img src="/main/assets/img/img_thewave_1.jpg" alt="Extrait du film la Vague">
+            <img src="/public/img/img_thewave_1.jpg" alt="Extrait du film la Vague">
             <div class="article__landingpage--container">
                 <h3>Une réplique mémorable</h3>
                 <p class="article__landingpage--container__p">Le cinéma a cette capacité unique à nous offrir des moments mémorables et des répliques qui résonnent longtemps après le générique de fin.</p>
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="article__landingpage">
-            <img src="/main/assets/img/img_thewave_symbol.jpg" alt="Symbole de la vague">
+            <img src="/public/img/img_thewave_symbol.jpg" alt="Symbole de la vague">
             <div class="article__landingpage--container">
                 <h3>Une Vague incontrôlable</h3>
                 <p class="article__landingpage--container__p">Le monde du cinéma est un univers fascinant. Capable de nous transporter dans des mondes imaginaires et de susciter des émotions profondes.</p>
@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="article__landingpage">
-            <img src="/main/assets/img/img_dennisgansel_1.jpg" alt="Photo du réalisateur Dennis Gansel">
+            <img src="/public/img/img_dennisgansel_1.jpg" alt="Photo du réalisateur Dennis Gansel">
             <div class="article__landingpage--container">
                 <h3>Une étoile du cinéma</h3>
                 <p class="article__landingpage--container__p">Le monde du cinéma est le royaume des conteurs d'histoires. Des magiciens qui nous emmènent dans des voyages visuels et émotionnels. Parmi ces artisans du cinéma, le réalisateur allemand Dennis Gansel brille comme un virtuose.</p>
@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="article__landingpage">
-            <img src="/main/assets/img/img_thewave_book1.jpg" alt="Couverture du livre la Vague">
+            <img src="/public/img/img_thewave_book1.jpg" alt="Couverture du livre la Vague">
             <div class="article__landingpage--container">
                 <h3>Une vague de mots</h3>
                 <p class="article__landingpage--container__p">L'univers de la littérature nous offre régulièrement des trésors qui transcendent les mots imprimés pour nous emmener dans des explorations profondes de la nature humaine.</p>
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="article__landingpage">
-            <img src="/main/assets/img/img_thehives_1.jpg" alt="Photo du groupe de musique The Hives">
+            <img src="/public/img/img_thehives_1.jpg" alt="Photo du groupe de musique The Hives">
             <div class="article__landingpage--container">
                 <h3>Une ode au rock</h3>
                 <p class="article__landingpage--container__p">La musique rock a toujours été un catalyseur d'énergie, un moyen de transcender les normes et de libérer l'âme rebelle qui sommeille en chacun de nous.</p>
@@ -87,7 +87,7 @@
         </div>
     </section>
     <section id="footer">
-        <img src="/main/assets/icons/Wave_logo_red.svg" alt="">
+        <img src="/public/icons/Wave_logo_red.svg" alt="">
         <div id="menu_footer_fr">
             <a class="menu__footer--fr__item" href="">À propos</a>
             <a class="menu__footer--fr__item" href="">Contact</a>
@@ -103,18 +103,18 @@
         </div>
         <div id="social">
             <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" aria-label="link to linkedin">
-                <img src="/main/assets/icons/linkedin.svg" alt="linkedin icon">
+                <img src="/public/icons/linkedin.svg" alt="linkedin icon">
             </a>
             <a href="https://twitter.com/Hasmed18" aria-label="link to X">
-                <img src="/main/assets/icons/x.svg" alt="X icon">
+                <img src="/public/icons/x.svg" alt="X icon">
             </a>
             <a href="https://github.com/SamuelCharasse" aria-label="link to github">
-                <img src="/main/assets/icons/github.svg" alt="Github icon">
+                <img src="/public/icons/github.svg" alt="Github icon">
             </a>
         </div>
         <div>
             <a href="">
-                <img src="/main/assets/img/MMI_-_logo_quadri_-white.png" alt="logo_mmi">
+                <img src="/public/img/MMI_-_logo_quadri_-white.png" alt="logo_mmi">
             </a>
         </div>
     </section>
