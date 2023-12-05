@@ -1,0 +1,25 @@
+@import "/main/css/landingPage.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('/main/assets/fonts/FuturaBoldfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('/main/assets/fonts/FuturaBookfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+    
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}

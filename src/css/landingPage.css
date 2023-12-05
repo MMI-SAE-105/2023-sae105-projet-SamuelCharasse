@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color: #FBFBFB;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h2 {
+    font-family: 'Futura-bold', sans-serif;
+    font-size: 24px;
+}
+h3 {
+    font-family: 'Futura-Bold', sans-serif;
+    font-size: 20px;
+}
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #ECEEED;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.header__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__logo {
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.header__logo.hidden {
+    opacity: 0;
+}
+.header__fr, .header__en, .header__menu {
+    margin-right: 16px;
+    margin-top: 16px;
+}
+.header__fr, .header__en{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #3C8DA8;
+}
+.nav {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECEEED;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.nav__item {
+    border-bottom: #000 1px solid;
+    font-size: 22px;
+    font-weight: 300;
+}
+.nav__item, .nav__link {
+    padding: 16px;
+}
+.actif {
+    font-weight: bold;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to bottom, #ECEEED 0%, #FBFBFB 100%);
+}
+.title__img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+.title__h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    color: #DE3434;
+    margin: 10px;
+    text-align: left;
+}
+.article__landingpage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 327px;
+}
+.article__landingpage img {
+    position: relative;
+    right: -10px;
+    bottom: -20px;
+    width: 327px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    z-index: -1;
+}
+.article__landingpage--container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    background-color: #7BC6E5;
+    border-radius: 8px;
+    width: 303px;
+}
+.article__landingpage--container__p  {
+    font-size: 11px;
+    font-weight: 300;
+    width: 255px;
+}
+.introduction__thematique {
+    font-size: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
