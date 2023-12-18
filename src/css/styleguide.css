@@ -1,10 +1,10 @@
 :root {
     /* Colors */
-    --brand-red: #DE3434;
-    --brand-blue: #007EA7;
-    --brand-white: #FBFBFB;
-    --brand-gray: #ECEEED;
-    --brand-black: #2E302D;   
+    --main-red: #DE3434;
+    --main-blue: #007EA7;
+    --main-white: #FBFBFB;
+    --main-gray: #ECEEED;
+    --main-black: #2E302D;   
     --shade-red-1: #FF5050;  
     --shade-red-2: #FE6E6E;
     --shade-blue-1: #3C8DA8;
