@@ -1,64 +1,68 @@
 :root {
-    --brand-red: rgba(222, 52, 52, 1);
-    --brand-blue: rgba(0, 126, 167, 1);
-    --brand-white: rgba(251, 251, 251, 1);
-    --brand-gray: rgba(236, 238, 237, 1);
-    --brand-black: rgba(46, 48, 45, 1);
-    --shade-red-1: rgba(255, 80, 80, 1);
-    --shade-red-2: rgba(254, 110, 110, 1);
-    --shade-blue-1: rgba(60, 141, 168, 1);
-    --shade-blue-2: rgba(51, 88, 135, 1);
-    --shade-gray-1: rgba(212, 212, 212, 1);
-    --shade-gray-2: rgba(190, 190, 190, 1);
-    --shade-black-1: rgba(100, 102, 105, 1);
-    --shade-black-2: rgba(109, 103, 103, 1);
-    --filtre: rgba(255, 80, 80, 0.2);
-    --heading-1-font-family: "BebasNeue-Regular", Helvetica;
+    /* Colors */
+    --brand-red: #DE3434;
+    --brand-blue: #007EA7;
+    --brand-white: #FBFBFB;
+    --brand-gray: #ECEEED;
+    --brand-black: #2E302D;   
+    --shade-red-1: #FF5050;  
+    --shade-red-2: #FE6E6E;
+    --shade-blue-1: #3C8DA8;
+    --shade-blue-2: #335887; 
+    /* H1 */
+    --heading-1-font-family: "BebasNeue", sans-serif;
     --heading-1-font-weight: 400;
     --heading-1-font-size: 36px;
     --heading-1-letter-spacing: 0px;
-    --heading-1-line-height: 110.00000238418579%;
+    --heading-1-line-height: 110%;
     --heading-1-font-style: normal;
-    --heading-2-font-family: "Futura-Bold-Regular", Helvetica;
+    /* H2 */
+    --heading-2-font-family: "Futura-Bold", sans-serif;
     --heading-2-font-weight: 400;
     --heading-2-font-size: 24px;
     --heading-2-letter-spacing: 0px;
-    --heading-2-line-height: 110.00000238418579%;
+    --heading-2-line-height: 110%;
     --heading-2-font-style: normal;
-    --heading-3-font-family: "Futura-Bold-Regular", Helvetica;
+    /* H3 */
+    --heading-3-font-family: "Futura-Bold", sans-serif;
     --heading-3-font-weight: 400;
     --heading-3-font-size: 20px;
     --heading-3-letter-spacing: 4px;
     --heading-3-line-height: 150%;
     --heading-3-font-style: normal;
-    --body-2-font-family: "Roboto-Light", Helvetica;
+    /* Body 2 */
+    --body-2-font-family: "Roboto", sans-serif;
     --body-2-font-weight: 300;
     --body-2-font-size: 16px;
     --body-2-letter-spacing: 0px;
-    --body-2-line-height: 160.0000023841858%;
+    --body-2-line-height: 160%;
     --body-2-font-style: normal;
-    --body-1-font-family: "Roboto-Light", Helvetica;
+    /* Body 1 */
+    --body-1-font-family: "Roboto", sans-serif;
     --body-1-font-weight: 300;
     --body-1-font-size: 22px;
     --body-1-letter-spacing: 0px;
     --body-1-line-height: 150%;
     --body-1-font-style: normal;
-    --small-text-font-family: "Roboto-Light", Helvetica;
+    /* Small Text */
+    --small-text-font-family: "Roboto", sans-serif;
     --small-text-font-weight: 300;
     --small-text-font-size: 12px;
     --small-text-letter-spacing: 0px;
-    --small-text-line-height: 160.0000023841858%;
+    --small-text-line-height: 160%;
     --small-text-font-style: normal;
-    --button-font-family: "Roboto-Bold", Helvetica;
+    /* Button */
+    --button-font-family: "Roboto", sans-serif;
     --button-font-weight: 700;
     --button-font-size: 11px;
     --button-letter-spacing: 1.1px;
-    --button-line-height: 160.0000023841858%;
+    --button-line-height: 160%;
     --button-font-style: normal;
-    --small-text-uppercase-font-family: "Roboto-Light", Helvetica;
+    /* Small Text Uppercase */
+    --small-text-uppercase-font-family: "Roboto", sans-serif;
     --small-text-uppercase-font-weight: 300;
     --small-text-uppercase-font-size: 13px;
     --small-text-uppercase-letter-spacing: 0px;
-    --small-text-uppercase-line-height: 160.0000023841858%;
+    --small-text-uppercase-line-height: 160%;
     --small-text-uppercase-font-style: normal;
   }
