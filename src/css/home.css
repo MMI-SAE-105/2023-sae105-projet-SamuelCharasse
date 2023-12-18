@@ -1,0 +1,75 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 16px;
+}
+.home__h1 {
+    font-family: var(--heading-1-font-family);
+    font-weight: var(--heading-1-font-weight);
+    font-size: var(--heading-1-font-size);
+    letter-spacing: var(--heading-1-letter-spacing);
+    line-height: var(--heading-1-line-height);
+    font-style: var(--heading-1-font-style);
+    color: var(--main-black);
+}
+.home__introduction {
+    font-family: var(--body-1-font-family);
+    font-weight: var(--body-1-font-weight);
+    font-size: var(--body-1-font-size);
+    letter-spacing: var(--body-1-letter-spacing);
+    line-height: var(--body-1-line-height);
+    font-style: var(--body-1-font-style);
+    color: var(--main-black);
+    padding: 16px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -16px;
+    box-shadow: 0px 1px 8px 0px rgba(46,48,45,0.60);
+    border-radius: 4px;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    padding: 8px;
+}
+.card__title {
+    font-family: var(--heading-3-font-family);
+    font-weight: var(--heading-3-font-weight);
+    font-size: var(--heading-3-font-size);
+    letter-spacing: var(--heading-3-letter-spacing);
+    line-height: var(--heading-3-line-height);
+    font-style: var(--heading-3-font-style);
+    color: var(--main-black);
+}
+.card__p {
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    font-size: var(--body-2-font-size);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    font-style: var(--body-2-font-style);
+    color: var(--main-black);
+    text-align: end;
+}
+.card__link {
+    text-decoration: none;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-letter-spacing);
+    line-height: var(--button-line-height);
+    font-style: var(--button-font-style);
+    color: var(--main-black);
+}
+.card__img {
+    border-radius: 4px;
+}
