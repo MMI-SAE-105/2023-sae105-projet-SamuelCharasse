@@ -18,6 +18,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: var(--main-white);
+}
 img, video {
     max-width: 100%;
     height: auto;
