@@ -10,19 +10,19 @@
     <title>Vague Abyssale</title>
 </head>
 <body>
-    <header class="header">     
+    <header x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}" class="header">     
         <div class="header__menu">
             <a href="" class="header__link"><img class="header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
             <div class="header__language">
                 <p class="header__p header__fr">FR</p>
                 <p class="header__p header__en">EN</p>
-                <img class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
+                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
             </div>  
         </div>
-        <div class="menu">
+        <div id="mainNav" x-show="menuIsOpen" class="menu">
             <div class="menu__header">
                     <img class="menu__header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
-                    <img class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
+                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
             </div>
             <nav class="menu">
                     <div class="menu__items">
