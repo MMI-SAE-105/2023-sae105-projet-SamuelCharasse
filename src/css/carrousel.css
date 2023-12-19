@@ -34,7 +34,7 @@
     display: grid;
     background-color: rgba(236, 238, 237, 0.9);
     place-content: center;
-    color: var(--main-red);
+    color: var(--main-black);
 }
 .carrousel__btn--avant {
     left: 0;
@@ -45,4 +45,14 @@
 .carrousel__ecran figure img {
     height: 410px;
     object-fit: cover;
+}
+.carrousel__ecran figcaption {
+    text-align: center;
+    font-family: var(--heading-3-font-family);
+    font-size: var(--heading-3-font-size);
+    font-weight: var(--heading-3-font-weight);
+    letter-spacing: var(--heading-3-letter-spacing);
+    font-style: var(--heading-3-font-style);
+    line-height: var(--heading-3-line-height);
+    color: var(--main-black);
 }
