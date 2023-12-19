@@ -1,0 +1,33 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    gap: 64px;
+    height: 200px;
+}
+.timeline__card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 16px;
+}
+.timeline__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+}
+.timeline__figcaption {
+    font-family: var(--small-text-uppercase-font-family);
+    font-weight: var(--small-text-uppercase-font-weight);
+    font-size: var(--small-text-uppercase-font-size);
+    letter-spacing: var(--small-text-uppercase-letter-spacing);
+    line-height: var(--small-text-uppercase-line-height);
+    font-style: var(--small-text-uppercase-font-style);
+    text-transform: uppercase;
+    color: var(--main-black);
+}
