@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="icon" href="/public/icons/Wave_logo_red.svg">
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Vague Abyssale</title>
+</head>
+<body>
+    <header x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}" class="header">     
+        <div class="header__menu">
+            <a href="/en/index.html" class="header__link"><img class="header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
+            <div class="header__language">
+                <p class="header__p header__fr">FR</p>
+                <p class="header__p header__en">EN</p>
+                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
+            </div>  
+        </div>
+        <div id="mainNav" x-show="menuIsOpen" class="menu">
+            <div class="menu__header">
+                    <img class="menu__header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
+                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
+            </div>
+            <nav class="menu">
+                    <div class="menu__items">
+                        <a href="/en/replique.html" class="menu__link">Memorable line</a>
+                        <hr class="menu__line">
+                    </div>
+                    <div class="menu__items">
+                        <a href="/en/film.html" class="menu__link">Uncontrollable wave</a>
+                        <hr class="menu__line">
+                    </div>
+                    <div class="menu__items">
+                        <a href="/en/realisateur.html" class="menu__link">A movie star</a>
+                        <hr class="menu__line">
+                    </div>
+                    <div class="menu__items">
+                        <a href="/en/livre.html" class="menu__link">Wave of words</a>
+                        <hr class="menu__line">
+                    </div>
+                    <div class="menu__items">
+                        <a href="/en/musique.html" class="menu__link">Ode to rock</a>
+                        <hr class="menu__line">
+                    </div>
+            </nav>
+            <div class="menu__content">
+                    <a href="/en/biblio-replique.html" class="menu__content__link">Quote-bookshelf</a>
+                    <a href="/en/glossaire.html" class="menu__content__link">Glossary</a>
+                    <a href="/en/contact.html" class="menu__content__link">Contact</a>
+                    <a href="/en/a-propos.html" class="menu__content__link">About</a>
+            </div>
+        </div>
+    </header>
+    <section class="article">
+        <h1 class="article__title">Une Vague incontrolable</h1>
+        <p class="article__introduction">Le monde du cinéma est un univers fascinant. Capable de nous transporter dans des mondes imaginaires et de susciter des émotions profondes. Parmi les œuvres cinématographiques qui marquent les esprits, "La Vague" (Die Welle), réalisé par Dennis Gansel en 2008. Il se démarque comme un tour de force cinématographique qui captive les amateurs de cinéma du monde entier.</p>
+        <h3 class="article__subtitle">Une plongée dans l'expérimentation sociale</h3>
+        <p class="article__content">"La Vague" est un thriller socio-politique allemand basé sur des faits réels, se déroulant dans un lycée contemporain. L'histoire tourne autour de Rainer Wenger, un professeur d'histoire, interprété brillamment par Jürgen Vogel. il qui décide de mener une expérience audacieuse pour illustrer les mécanismes de l'autocratie à ses élèves. Il crée un mouvement nommé "La Vague" (Die Welle) avec ses règles, son salut et son uniforme distinctif. Initialement sceptiques, les élèves se laissent rapidement emporter par le phénomène. Et qui peu à peu transforme la salle de classe en un microcosme de pouvoir et de conformité.</p>
+        <div class="article__media">
+            <figure class="article__figure">
+                <video controls>
+                    <source src="/public/video/thewave_fr.mp4" type="video/mp4">
+                </video>
+            </figure>
+            <figcaption class="article__figcaption"><p>Bande annonce La Vague</p></figcaption>
+        </div>
+        <h3 class="article__subtitle">La puissance de la réflexion</h3>
+        <p class="article__content">Le film se distingue par sa capacité à stimuler la réflexion du spectateur. Tout au long de l'intrigue, nous sommes confrontés aux conséquences inattendues de l'expérience sociale menée par Wenger. La transformation progressive des élèves, de simples participants à fervents adeptes de "La Vague," est à la fois fascinante et troublante. Le spectateur se retrouve inévitablement pris dans ce tourbillon d'émotions et de questionnements sur la nature humaine.</p>
+        <h3 class="article__subtitle">Une réalisation captivante</h3>
+        <p class="article__content">La réalisation de Dennis Gansel est une véritable prouesse. Il nous plonge dans l'univers de "La Vague" avec une maîtrise visuelle impressionnante. Les scènes sont habilement mises en scène. La progression de l'histoire est soutenue par une bande originale qui amplifie l'impact émotionnel du film.</p>
+        <div class="article__media">
+            <figure class="article__figure"><img src="/public/img/img_thewave_4.jpg" alt="Extrait du film La Vague"></figure>
+            <figcaption class="article__figcaption"><p>Extrait du film La Vague</p></figcaption>
+        </div>
+        <h3 class="article__subtitle">Des performances époustouflantes</h3>
+        <p class="article__content">Les performances des acteurs, en particulier celle de Jürgen Vogel, sont tout simplement époustouflantes. Vogel incarne brillamment le personnage complexe de Wenger. Faisant passer du doute à la conviction, de l'enthousiasme au désespoir. L'ensemble du casting contribue à rendre les personnages crédibles et mémorables.</p>
+        <p class="article__conclusion article__content">En conclusion, "La Vague" de Dennis Gansel est bien plus qu'un simple film. C'est une expérience cinématographique puissante qui explore les tréfonds de la psychologie humaine et les dangers de l'obéissance aveugle. Si vous êtes un amateur de cinéma en quête d'une œuvre qui stimule l'intellect et touche l'âme, "La Vague" est un incontournable. Préparez-vous à être captivé, ému et profondément marqué par cette exploration de la nature humaine et de la quête de pouvoir.</p>
+    </section>
+    <footer class="footer">
+        <div class="footer__list">
+            <a href="/en/biblio-replique.html" class="footer__link">Quote-bookshelf</a>
+            <a href="/en/glossaire.html" class="footer__link">Glossary</a>
+            <a href="/en/contact.html" class="footer__link">Contact</a>
+            <a href="/en/a-propos.html" class="footer__link">About</a>
+        </div>
+        <hr class="footer__line">
+        <div class="footer__content">
+            <div class="footer__email">
+                <p class="footer__email__p">Samuel Charasse</p>
+                <p class="footer__email__p"><a class="footer__mailto" href="mailto:samuel.charasse@edu.univ-fcomte.fr">samuel.charasse@edu.univ-fcomte.fr</a></p>
+            </div>
+            <p class="footer__p">This website was created as part of an educational exercise at the MMI department in Montbéliard</p>
+        </div>
+        <img src="/public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
+        <div class="footer__bottom">
+            <div class="footer__social">
+                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="/public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
+                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="/public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
+                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="/public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
+            </div>
+            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="/public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
+        </div>
+    </footer>
+</body>
+</html>
