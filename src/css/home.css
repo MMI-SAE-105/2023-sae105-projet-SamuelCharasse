@@ -47,7 +47,7 @@
     letter-spacing: var(--heading-3-letter-spacing);
     line-height: var(--heading-3-line-height);
     font-style: var(--heading-3-font-style);
-    color: var(--main-black);
+    color: var(--main-blue);
 }
 .card__p {
     font-family: var(--body-2-font-family);
