@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : CHARASSE
+- PRÉNOM : Samuel
+- URL du site : https://abyssal-wave.scharasse.fr/
+- URL FIGMA : https://www.figma.com/file/QdYJni7k4YZ5BIPZ3D96Q5/Maquette-projet-individuel-%E2%80%94-Samuel-CHARASSE?type=design&node-id=1508%3A120&mode=design&t=eqqbwUg4cbBchIjG-1
 
 # Structure de départ pour le projet individuel.
 
