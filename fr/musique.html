@@ -7,6 +7,7 @@
     <link rel="icon" href="/public/icons/Wave_logo_red.svg">
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>window.onload = function() {if (window.location.pathname.includes('/fr')) {document.querySelector('.header__fr').classList.add('active');}}</script>
     <title>Vague Abyssale</title>
 </head>
 <body>
@@ -14,8 +15,12 @@
         <div class="header__menu">
             <a href="/fr/index.html" class="header__link"><img class="header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
             <div class="header__language">
-                <p class="header__p header__fr">FR</p>
-                <p class="header__p header__en">EN</p>
+                    <a href="/fr/musique.html" class="header__link">
+                        <p class="header__p header__fr">FR</p>
+                    </a>
+                    <a href="/en/musique.html" class="header__link">
+                        <p class="header__p header__en">EN</p>
+                    </a>
                 <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
             </div>  
         </div>
