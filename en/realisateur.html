@@ -7,7 +7,7 @@
     <link rel="icon" href="/public/icons/Wave_logo_red.svg">
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <title>Vague Abyssale</title>
+    <title>Abyssal wave</title>
 </head>
 <body>
     <header x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}" class="header">     
@@ -55,24 +55,24 @@
         </div>
     </header>
     <section class="article">
-        <h1 class="article__title">Une étoile du cinéma</h1>
-        <p class="article__introduction">Le monde du cinéma est le royaume des conteurs d'histoires. Des magiciens qui nous emmènent dans des voyages visuels et émotionnels. Parmi ces artisans du cinéma, le réalisateur allemand Dennis Gansel brille comme un virtuose. Il nous captive par son exploration audacieuse de la condition humaine.</p>
-        <h3 class="article__subtitle">Un pionnier du cinéma contemporain</h3>
-        <p class="article__content">Né le 4 octobre 1973 à Hanovre, en Allemagne, Dennis Gansel a rapidement émergé comme l'un des réalisateurs les plus talentueux de sa génération. Son travail est profondément ancré dans l'exploration des thèmes sociaux et psychologiques. Ce qui lui a valu une reconnaissance internationale.</p>
+        <h1 class="article__title">A movie star</h1>
+        <p class="article__introduction">The world of cinema is the realm of storytellers. Magicians who take us on visual and emotional journeys. German director Dennis Gansel shines like a virtuoso among these craftsmen. He captivates us with his bold exploration of the human condition.</p>
+        <h3 class="article__subtitle">A Pioneer of Contemporary Cinema</h3>
+        <p class="article__content">Born on October 4, 1973 in Hanover, Germany, Dennis Gansel quickly emerged as one of the most talented directors of his generation. His work is deeply rooted in the exploration of social and psychological themes. This has earned him international recognition.</p>
         <div class="article__media">
             <figure class="article__figure"><img src="/public/img/img_dennisgansel_1.jpg" alt="Photographie de Dennis Gansel"></figure>
-            <figcaption class="article__figcaption"><p>Photographie de Dennis Gansel</p></figcaption>
+            <figcaption class="article__figcaption"><p>Photography of Dennis Gansel</p></figcaption>
         </div>
-        <h3 class="article__subtitle">Un voyage dans la psyché Humaine</h3>
-        <p class="article__content">Ce qui distingue Dennis Gansel, c'est sa capacité à plonger dans les profondeurs de l'âme humaine. Ses films, tels que "La Vague" (Die Welle) et "Napola - Élite für den Führer," défient les conventions. Ils nous obligent à remettre en question notre compréhension de nous-mêmes. Dans "La Vague," il nous confronte aux mécanismes de la conformité et de l'autoritarisme. Nous laissant méditer sur la fragilité de la démocratie et les dangers de l'obéissance aveugle.</p>
-        <h3 class="article__subtitle">Un Conteur de l'Inconfortable</h3>
-        <p class="article__content">Gansel excelle dans la création de récits qui ne nous laissent pas indemnes. Il nous pousse hors de notre zone de confort. Il nous invite à explorer les coins les plus sombres de la société et de l'individu. Ses films ne sont pas simplement divertissants. Mais des défis à notre intellect et à notre conscience.</p>
+        <h3 class="article__subtitle">A Journey into the Human Psyche</h3>
+        <p class="article__content">What sets Dennis Gansel apart is his ability to plunge into the depths of the human soul. His films, such as «The Wave» (Die Welle) and «Napola - Élite für den Führer,» defy convention. They force us to question our understanding of ourselves. In «The Wave,» he confronts us with the mechanisms of conformity and authoritarianism. Leaving us to ponder the fragility of democracy and the dangers of blind obedience.</p>
+        <h3 class="article__subtitle">A Storyteller of the Uncomfortable</h3>
+        <p class="article__content">Gansel excels in creating stories that don’t leave us unscathed. He pushes us out of our comfort zone. He invites us to explore the darkest corners of society and the individual. His films are not simply entertaining. They challenge our intellect and our conscience.</p>
         <div class="article__media">
             <figure class="article__figure"><img src="/public/img/img_dennisgansel_2.jpg" alt="Photographie de Dennis Gansel"></figure>
-            <figcaption class="article__figcaption"><p>Photographie de Dennis Gansel (à droite)</p></figcaption>
+            <figcaption class="article__figcaption"><p>Photography of Dennis Gansel (on right)</p></figcaption>
         </div>
-        <h3 class="article__subtitle">L'impact de ses réalisations</h3>
-        <p class="article__content">Les œuvres de Dennis Gansel laissent une empreinte durable. "La Vague" a suscité des discussions animées dans les salles de classe et les cercles de réflexion. Invitant les spectateurs à réfléchir à leur propre comportement et à leur capacité à suivre le mouvement. Gansel ne cherche pas seulement à divertir, mais à éduquer et à éclairer.</p>
+        <h3 class="article__subtitle">The Impact of his Achievements</h3>
+        <p class="article__content">Dennis Gansel’s works leave a lasting impression. «The Wave» has sparked lively discussions in classrooms and think tanks. Inviting viewers to reflect on their own behavior and ability to go with the flow. Gansel seeks not only to entertain, but to educate and enlighten.</p>
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
             <button @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth" class="carrousel__btn carrousel__btn--avant" aria-label="slide précedant"><</button><button @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth" class="carrousel__btn carrousel__btn--apres" aria-label="slide suivant">></button>
             <div class="carrousel__parent--ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant='#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
@@ -81,35 +81,35 @@
                         <img src="/public/img/das_phantom.jpg" alt="Affiche du film Das Phantom">
                     </figure>
                     <figcaption>Das Phantom - 1999</figcaption>
-                    <figcaption>Thriller politique</figcaption>
+                    <figcaption>Politic thriller</figcaption>
                 </div>
                 <div id="ecran-2" class="carrousel__ecran">
                     <figure>
                         <img src="/public/img/madchen.jpg" alt="Affiche du film Madchen Madchen">
                     </figure>
                     <figcaption>Mädchen Mädchen - 2001</figcaption>
-                    <figcaption>Comédie allemande</figcaption>
+                    <figcaption>German comedy</figcaption>
                 </div>
                 <div id="ecran-3" class="carrousel__ecran">
                     <figure>
                         <img src="/public/img/napola.jpg" alt="Affiche du film Napola">
                     </figure>
                     <figcaption>Napola - 2004</figcaption>
-                    <figcaption>Drame historique</figcaption>
+                    <figcaption>Historical drama</figcaption>
                 </div>
                 <div id="ecran-4" class="carrousel__ecran">
                     <figure>
                         <img src="/public/img/the_wave.jpg" alt="Affiche du film La vague">
                     </figure>
                     <figcaption>La Vague - 2008</figcaption>
-                    <figcaption>Drame - Thriller</figcaption>
+                    <figcaption>Drama - Thriller</figcaption>
                 </div>
                 <div id="ecran-5" class="carrousel__ecran">
                     <figure>
                         <img src="/public/img/night_is_yours.jpg" alt="Affiche du film Nous sommes la nuit">
                     </figure>
                     <figcaption>Nous sommes la nuit - 2010</figcaption>
-                    <figcaption>Fantaise - Thriller - Horreur</figcaption>
+                    <figcaption>Fantaisy - Thriller - Horror</figcaption>
                 </div>
                 <div id="ecran-6" class="carrousel__ecran">
                     <figure>
@@ -135,8 +135,8 @@
             </div>
         </div>
         <h3 class="article__subtitle">Un cinéaste en constante évolution</h3>
-        <p class="article__content">La carrière de Gansel est en constante évolution. Avec des projets qui abordent une variété de genres et de sujets. Il se réinvente et s'aventure dans des territoires cinématographiques divers, montrant sa polyvalence en tant que réalisateur.</p>
-        <p class="article__conclusion article__content">Dennis Gansel est un maître du cinéma contemporain. Il transcende les frontières de la narration pour explorer la psyché humaine. Son travail captivant, parfois dérangeant, nous pousse à réfléchir, à remettre en question. Les films de Dennis Gansel sont une invitation à un voyage inoubliable.</p>
+        <p class="article__content">Gansel’s career is constantly evolving. With projects tackling a variety of genres and subjects. He reinvents himself and ventures into diverse cinematic territories, demonstrating his versatility as a director.</p>
+        <p class="article__conclusion article__content">Dennis Gansel is a master of contemporary cinema. He transcends the boundaries of narrative to explore the human psyche. His captivating, sometimes disturbing work prompts us to reflect and question. Dennis Gansel’s films are an invitation to an unforgettable journey.</p>
     </section>
     <footer class="footer">
         <div class="footer__list">
