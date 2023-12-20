@@ -55,3 +55,17 @@ h3 {
     letter-spacing: var(--heading-3-letter-spacing);
     font-style: var(--heading-3-font-style);
 }
+.btn {
+    background-color: var(--shade-red-2);
+    text-decoration: none;
+    color: var(--main-black);
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-letter-spacing);
+    line-height: var(--button-line-height);
+    text-transform: uppercase;
+    gap: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.60)
+}
