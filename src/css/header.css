@@ -24,7 +24,10 @@
 .header__p + .header__img {
     padding-left: 16px;
 }
-.header__fr {
+.header__link {
+    text-decoration: none;
+}
+.header__fr.active,.header__en.active {
     font-family: var(--small-text-font-family);
     font-weight: var(--button-font-weight);
     font-size: var(--small-text-font-size);
@@ -33,7 +36,7 @@
     font-style: var(--small-text-font-style);
     color: var(--shade-blue-1);
 }
-.header__en {
+.header__en, .header__fr {
     font-family: var(--small-text-font-family);
     font-weight: var(--small-text-font-weight);
     font-size: var(--small-text-font-size);
@@ -41,6 +44,7 @@
     line-height: var(--small-text-line-height);
     font-style: var(--small-text-font-style);
     color: var(--shade-blue-1);
+    text-decoration: none;
 }
 div.menu {
     position: fixed;
