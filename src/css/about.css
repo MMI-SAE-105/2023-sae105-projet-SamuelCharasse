@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 16px;
+}
+.about__img {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+.about__text {
+    font-family: var(--body-2-font-family);
+    font-weight: var(--body-2-font-weight);
+    font-size: var(--body-2-font-size);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    font-style: var(--body-2-font-style);
+    color: var(--main-black);
+    padding: 16px;
+}
