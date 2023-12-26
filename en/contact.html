@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/main.css">
-    <link rel="icon" href="./public/icons/Wave_logo_red.svg">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="icon" href="/public/icons/Wave_logo_red.svg">
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script>window.onload = function() {if (window.location.pathname.includes('/en')) {document.querySelector('.header__en').classList.add('active');}}</script>
@@ -13,49 +13,49 @@
 <body>
     <header x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}" class="header">     
         <div class="header__menu">
-            <a href="./en/index.html" class="header__link"><img class="header__img" src="./public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
+            <a href="/en/index.html" class="header__link"><img class="header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
             <div class="header__language">
-                <a href="./fr/contact.html" class="header__link">
+                <a href="/fr/contact.html" class="header__link">
                     <p class="header__p header__fr">FR</p>
                 </a>
-                    <a href="./en/contact.html" class="header__link">
+                    <a href="/en/contact.html" class="header__link">
                         <p class="header__p header__en">EN</p>
                     </a>
-                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="./public/icons/wave-fill.svg" alt="Menu icon">
+                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
             </div>  
         </div>
         <div id="mainNav" x-show="menuIsOpen" class="menu">
             <div class="menu__header">
-                    <img class="menu__header__img" src="./public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
-                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="./public/icons/menu-closed.svg" alt="Close Menu icon">
+                    <img class="menu__header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
+                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
             </div>
             <nav class="menu">
                     <div class="menu__items">
-                        <a href="./en/replique.html" class="menu__link">Memorable line</a>
+                        <a href="/en/replique.html" class="menu__link">Memorable line</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./en/film.html" class="menu__link">Uncontrollable wave</a>
+                        <a href="/en/film.html" class="menu__link">Uncontrollable wave</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./en/realisateur.html" class="menu__link">A movie star</a>
+                        <a href="/en/realisateur.html" class="menu__link">A movie star</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./en/livre.html" class="menu__link">Wave of words</a>
+                        <a href="/en/livre.html" class="menu__link">Wave of words</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./en/musique.html" class="menu__link">Ode to rock</a>
+                        <a href="/en/musique.html" class="menu__link">Ode to rock</a>
                         <hr class="menu__line">
                     </div>
             </nav>
             <div class="menu__content">
-                    <a href="./en/biblio-replique.html" class="menu__content__link">Quote-bookshelf</a>
-                    <a href="./en/glossaire.html" class="menu__content__link">Glossary</a>
-                    <a href="./en/contact.html" class="menu__content__link">Contact</a>
-                    <a href="./en/a-propos.html" class="menu__content__link">About</a>
+                    <a href="/en/biblio-replique.html" class="menu__content__link">Quote-bookshelf</a>
+                    <a href="/en/glossaire.html" class="menu__content__link">Glossary</a>
+                    <a href="/en/contact.html" class="menu__content__link">Contact</a>
+                    <a href="/en/a-propos.html" class="menu__content__link">About</a>
             </div>
         </div>
     </header>
@@ -86,10 +86,10 @@
     </section>
     <footer class="footer">
         <div class="footer__list">
-            <a href="./en/biblio-replique.html" class="footer__link">Quote-bookshelf</a>
-            <a href="./en/glossaire.html" class="footer__link">Glossary</a>
-            <a href="./en/contact.html" class="footer__link">Contact</a>
-            <a href="./en/a-propos.html" class="footer__link">About</a>
+            <a href="/en/biblio-replique.html" class="footer__link">Quote-bookshelf</a>
+            <a href="/en/glossaire.html" class="footer__link">Glossary</a>
+            <a href="/en/contact.html" class="footer__link">Contact</a>
+            <a href="/en/a-propos.html" class="footer__link">About</a>
         </div>
         <hr class="footer__line">
         <div class="footer__content">
@@ -99,14 +99,14 @@
             </div>
             <p class="footer__p">This website was created as part of an educational exercise at the MMI department in Montbéliard</p>
         </div>
-        <img src="./public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
+        <img src="/public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
         <div class="footer__bottom">
             <div class="footer__social">
-                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="./public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
-                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="./public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
-                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="./public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
+                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="/public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
+                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="/public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
+                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="/public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
             </div>
-            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="./public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
+            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="/public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
         </div>
     </footer>
 </body>

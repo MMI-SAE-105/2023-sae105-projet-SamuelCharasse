@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/main.css">
-    <link rel="icon" href="./public/icons/Wave_logo_red.svg">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="icon" href="/public/icons/Wave_logo_red.svg">
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script>window.onload = function() {if (window.location.pathname.includes('/fr')) {document.querySelector('.header__fr').classList.add('active');}}</script>
@@ -13,49 +13,49 @@
 <body>
     <header x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}" class="header">     
         <div class="header__menu">
-            <a href="./fr/index.html" class="header__link"><img class="header__img" src="./public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
+            <a href="/fr/index.html" class="header__link"><img class="header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
             <div class="header__language">
-                    <a href="./fr/realisateur.html" class="header__link">
+                    <a href="/fr/realisateur.html" class="header__link">
                         <p class="header__p header__fr">FR</p>
                     </a>
-                    <a href="./en/realisateur.html" class="header__link">
+                    <a href="/en/realisateur.html" class="header__link">
                         <p class="header__p header__en">EN</p>
                     </a>
-                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="./public/icons/wave-fill.svg" alt="Menu icon">
+                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
             </div>  
         </div>
         <div id="mainNav" x-show="menuIsOpen" class="menu">
             <div class="menu__header">
-                    <img class="menu__header__img" src="./public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
-                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="./public/icons/menu-closed.svg" alt="Close Menu icon">
+                    <img class="menu__header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
+                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
             </div>
             <nav class="menu">
                     <div class="menu__items">
-                        <a href="./fr/replique.html" class="menu__link">Réplique mémorable</a>
+                        <a href="/fr/replique.html" class="menu__link">Réplique mémorable</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/film.html" class="menu__link">Vague incontrolable</a>
+                        <a href="/fr/film.html" class="menu__link">Vague incontrolable</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/realisateur.html" class="menu__link">Étoile du cinéma</a>
+                        <a href="/fr/realisateur.html" class="menu__link">Étoile du cinéma</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/livre.html" class="menu__link">Vague de mots</a>
+                        <a href="/fr/livre.html" class="menu__link">Vague de mots</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/musique.html" class="menu__link">Ode au rock</a>
+                        <a href="/fr/musique.html" class="menu__link">Ode au rock</a>
                         <hr class="menu__line">
                     </div>
             </nav>
             <div class="menu__content">
-                    <a href="./fr/biblio-replique.html" class="menu__content__link">Biblio-réplique</a>
-                    <a href="./fr/glossaire.html" class="menu__content__link">Glossaire</a>
-                    <a href="./fr/contact.html" class="menu__content__link">Contact</a>
-                    <a href="./fr/a-propos.html" class="menu__content__link">À propos</a>
+                    <a href="/fr/biblio-replique.html" class="menu__content__link">Biblio-réplique</a>
+                    <a href="/fr/glossaire.html" class="menu__content__link">Glossaire</a>
+                    <a href="/fr/contact.html" class="menu__content__link">Contact</a>
+                    <a href="/fr/a-propos.html" class="menu__content__link">À propos</a>
             </div>
         </div>
     </header>
@@ -65,7 +65,7 @@
         <h3 class="article__subtitle">Un pionnier du cinéma contemporain</h3>
         <p class="article__content">Né le 4 octobre 1973 à Hanovre, en Allemagne, Dennis Gansel a rapidement émergé comme l'un des réalisateurs les plus talentueux de sa génération. Son travail est profondément ancré dans l'exploration des thèmes sociaux et psychologiques. Ce qui lui a valu une reconnaissance internationale.</p>
         <div class="article__media">
-            <figure class="article__figure"><img src="./public/img/img_dennisgansel_1.jpg" alt="Photographie de Dennis Gansel"></figure>
+            <figure class="article__figure"><img src="/public/img/img_dennisgansel_1.jpg" alt="Photographie de Dennis Gansel"></figure>
             <figcaption class="article__figcaption"><p>Photographie de Dennis Gansel</p></figcaption>
         </div>
         <h3 class="article__subtitle">Un voyage dans la psyché Humaine</h3>
@@ -73,7 +73,7 @@
         <h3 class="article__subtitle">Un Conteur de l'Inconfortable</h3>
         <p class="article__content">Gansel excelle dans la création de récits qui ne nous laissent pas indemnes. Il nous pousse hors de notre zone de confort. Il nous invite à explorer les coins les plus sombres de la société et de l'individu. Ses films ne sont pas simplement divertissants. Mais des défis à notre intellect et à notre conscience.</p>
         <div class="article__media">
-            <figure class="article__figure"><img src="./public/img/img_dennisgansel_2.jpg" alt="Photographie de Dennis Gansel"></figure>
+            <figure class="article__figure"><img src="/public/img/img_dennisgansel_2.jpg" alt="Photographie de Dennis Gansel"></figure>
             <figcaption class="article__figcaption"><p>Photographie de Dennis Gansel (à droite)</p></figcaption>
         </div>
         <h3 class="article__subtitle">L'impact de ses réalisations</h3>
@@ -83,56 +83,56 @@
             <div class="carrousel__parent--ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant='#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
                 <div id="ecran-1" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/das_phantom.jpg" alt="Affiche du film Das Phantom">
+                        <img src="/public/img/das_phantom.jpg" alt="Affiche du film Das Phantom">
                     </figure>
                     <figcaption>Das Phantom - 1999</figcaption>
                     <figcaption>Thriller politique</figcaption>
                 </div>
                 <div id="ecran-2" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/madchen.jpg" alt="Affiche du film Madchen Madchen">
+                        <img src="/public/img/madchen.jpg" alt="Affiche du film Madchen Madchen">
                     </figure>
                     <figcaption>Mädchen Mädchen - 2001</figcaption>
                     <figcaption>Comédie allemande</figcaption>
                 </div>
                 <div id="ecran-3" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/napola.jpg" alt="Affiche du film Napola">
+                        <img src="/public/img/napola.jpg" alt="Affiche du film Napola">
                     </figure>
                     <figcaption>Napola - 2004</figcaption>
                     <figcaption>Drame historique</figcaption>
                 </div>
                 <div id="ecran-4" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/the_wave.jpg" alt="Affiche du film La vague">
+                        <img src="/public/img/the_wave.jpg" alt="Affiche du film La vague">
                     </figure>
                     <figcaption>La Vague - 2008</figcaption>
                     <figcaption>Drame - Thriller</figcaption>
                 </div>
                 <div id="ecran-5" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/night_is_yours.jpg" alt="Affiche du film Nous sommes la nuit">
+                        <img src="/public/img/night_is_yours.jpg" alt="Affiche du film Nous sommes la nuit">
                     </figure>
                     <figcaption>Nous sommes la nuit - 2010</figcaption>
                     <figcaption>Fantaise - Thriller - Horreur</figcaption>
                 </div>
                 <div id="ecran-6" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/fourth_power.jpg" alt="Affiche du film Le quatrième pouvoir">
+                        <img src="/public/img/fourth_power.jpg" alt="Affiche du film Le quatrième pouvoir">
                     </figure>
                     <figcaption>Le quatrième pouvoir - 2012</figcaption>
                     <figcaption>Thriller</figcaption>
                 </div>
                 <div id="ecran-7" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/mechanic_resurection.jpg" alt="Affiche du film Mechanic resurection">
+                        <img src="/public/img/mechanic_resurection.jpg" alt="Affiche du film Mechanic resurection">
                     </figure>
                     <figcaption>Mechanic resurection - 2016</figcaption>
                     <figcaption>Action</figcaption>
                 </div>
                 <div id="ecran-8" class="carrousel__ecran">
                     <figure>
-                        <img src="./public/img/berlin_love_you.jpg" alt="Affiche du film Berlin,i love you">
+                        <img src="/public/img/berlin_love_you.jpg" alt="Affiche du film Berlin,i love you">
                     </figure>
                     <figcaption>Berlin, i love you - 2019</figcaption>
                     <figcaption>Romance</figcaption>
@@ -145,10 +145,10 @@
     </section>
     <footer class="footer">
         <div class="footer__list">
-            <a href="./fr/biblio-replique.html" class="footer__link">Biblio-réplique</a>
-            <a href="./fr/glossaire.html" class="footer__link">Glossaire</a>
-            <a href="./fr/contact.html" class="footer__link">Contact</a>
-            <a href="./fr/a-propos.html" class="footer__link">À propos</a>
+            <a href="/fr/biblio-replique.html" class="footer__link">Biblio-réplique</a>
+            <a href="/fr/glossaire.html" class="footer__link">Glossaire</a>
+            <a href="/fr/contact.html" class="footer__link">Contact</a>
+            <a href="/fr/a-propos.html" class="footer__link">À propos</a>
         </div>
         <hr class="footer__line">
         <div class="footer__content">
@@ -158,14 +158,14 @@
             </div>
             <p class="footer__p">Ce site est réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
         </div>
-        <img src="./public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
+        <img src="/public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
         <div class="footer__bottom">
             <div class="footer__social">
-                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="./public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
-                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="./public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
-                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="./public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
+                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="/public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
+                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="/public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
+                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="/public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
             </div>
-            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="./public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
+            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="/public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
         </div>
     </footer>
 </body>

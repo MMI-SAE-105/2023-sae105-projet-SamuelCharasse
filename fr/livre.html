@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/main.css">
-    <link rel="icon" href="./public/icons/Wave_logo_red.svg">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="icon" href="/public/icons/Wave_logo_red.svg">
     <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script>window.onload = function() {if (window.location.pathname.includes('/fr')) {document.querySelector('.header__fr').classList.add('active');}}</script>
@@ -13,49 +13,49 @@
 <body>
     <header x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}" class="header">     
         <div class="header__menu">
-            <a href="./fr/index.html" class="header__link"><img class="header__img" src="./public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
+            <a href="/fr/index.html" class="header__link"><img class="header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo"></a>
             <div class="header__language">
-                    <a href="./fr/livre.html" class="header__link">
+                    <a href="/fr/livre.html" class="header__link">
                         <p class="header__p header__fr">FR</p>
                     </a>
-                    <a href="./en/livre.html" class="header__link">
+                    <a href="/en/livre.html" class="header__link">
                         <p class="header__p header__en">EN</p>
                     </a>
-                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="./public/icons/wave-fill.svg" alt="Menu icon">
+                <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
             </div>  
         </div>
         <div id="mainNav" x-show="menuIsOpen" class="menu">
             <div class="menu__header">
-                    <img class="menu__header__img" src="./public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
-                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="./public/icons/menu-closed.svg" alt="Close Menu icon">
+                    <img class="menu__header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
+                    <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
             </div>
             <nav class="menu">
                     <div class="menu__items">
-                        <a href="./fr/replique.html" class="menu__link">Réplique mémorable</a>
+                        <a href="/fr/replique.html" class="menu__link">Réplique mémorable</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/film.html" class="menu__link">Vague incontrolable</a>
+                        <a href="/fr/film.html" class="menu__link">Vague incontrolable</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/realisateur.html" class="menu__link">Étoile du cinéma</a>
+                        <a href="/fr/realisateur.html" class="menu__link">Étoile du cinéma</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/livre.html" class="menu__link">Vague de mots</a>
+                        <a href="/fr/livre.html" class="menu__link">Vague de mots</a>
                         <hr class="menu__line">
                     </div>
                     <div class="menu__items">
-                        <a href="./fr/musique.html" class="menu__link">Ode au rock</a>
+                        <a href="/fr/musique.html" class="menu__link">Ode au rock</a>
                         <hr class="menu__line">
                     </div>
             </nav>
             <div class="menu__content">
-                    <a href="./fr/biblio-replique.html" class="menu__content__link">Biblio-réplique</a>
-                    <a href="./fr/glossaire.html" class="menu__content__link">Glossaire</a>
-                    <a href="./fr/contact.html" class="menu__content__link">Contact</a>
-                    <a href="./fr/a-propos.html" class="menu__content__link">À propos</a>
+                    <a href="/fr/biblio-replique.html" class="menu__content__link">Biblio-réplique</a>
+                    <a href="/fr/glossaire.html" class="menu__content__link">Glossaire</a>
+                    <a href="/fr/contact.html" class="menu__content__link">Contact</a>
+                    <a href="/fr/a-propos.html" class="menu__content__link">À propos</a>
             </div>
         </div>
     </header>
@@ -65,7 +65,7 @@
         <h3 class="article__subtitle">Un terrain d'expérimentation psychologique</h3>
         <p class="article__content">Publié en 1981, "La Vague" est un roman jeune adulte. Il tire son inspiration d'événements réels survenus dans une école californienne en 1967. L'histoire est racontée à travers les yeux de Ben Ross, un professeur d'histoire. Il nous entraîne dans un voyage intellectuel captivant. Ross décide de mener une expérience en classe pour enseigner les mécanismes du fascisme et de la conformité à ses élèves. Ce qui commence comme une leçon devient rapidement une exploration inquiétante de la psychologie de groupe.</p>
         <div class="article__media">
-            <figure class="article__figure"><img src="./public/img/img_thewave_book1.jpg" alt="Couverture du livre The Wave de Todd Strasser"></figure>
+            <figure class="article__figure"><img src="/public/img/img_thewave_book1.jpg" alt="Couverture du livre The Wave de Todd Strasser"></figure>
             <figcaption class="article__figcaption"><p>Couverture du livre The Wave de Todd Strasser</p></figcaption>
         </div>
         <h3 class="article__subtitle">Une force qui captive</h3>
@@ -76,19 +76,19 @@
         <p class="article__content">Ce qui rend "La Vague" si captivant, c'est son exploration audacieuse de la psychologie de groupe. Le lecteur est témoin de la transformation progressive des élèves de Ben Ross, qui passent de simples participants à des membres fervents de "La Vague." L'auteur nous confronte à la facilité avec laquelle des individus peuvent être entraînés dans des comportements conformistes extrêmes. Cela met ainsi en lumière les dangers de l'obéissance aveugle.</p>
         <div class="timeline">
             <div class="timeline__card">
-                <figure class="timeline__figure"><img src="./public/img/img_thewave_book4.jpg" alt=""></figure>
+                <figure class="timeline__figure"><img src="/public/img/img_thewave_book4.jpg" alt=""></figure>
                 <figcaption class="timeline__figcaption"><p>Todd Strasser - 1981</p></figcaption>
             </div>
             <div class="timeline__card">
-                <figure class="timeline__figure"><img src="./public/img/img_thewave_book3.jpg" alt=""></figure>
+                <figure class="timeline__figure"><img src="/public/img/img_thewave_book3.jpg" alt=""></figure>
                 <figcaption class="timeline__figcaption"><p>Robert Cialdini - 2012</p></figcaption>
             </div>
             <div class="timeline__card">
-                <figure class="timeline__figure"><img src="./public/img/img_thewave_book2.jpg" alt=""></figure>
+                <figure class="timeline__figure"><img src="/public/img/img_thewave_book2.jpg" alt=""></figure>
                 <figcaption class="timeline__figcaption"><p>Alain Frachon - 2022</p></figcaption>
             </div>
             <div class="timeline__card">
-                <figure class="timeline__figure"><img src="./public/img/img_thewave_book5.jpg" alt=""></figure>
+                <figure class="timeline__figure"><img src="/public/img/img_thewave_book5.jpg" alt=""></figure>
                 <figcaption class="timeline__figcaption"><p>Isabelle Mandraud & Julien Theron - 2023</p></figcaption>
             </div>
         </div>
@@ -96,10 +96,10 @@
     </section>
     <footer class="footer">
         <div class="footer__list">
-            <a href="./fr/biblio-replique.html" class="footer__link">Biblio-réplique</a>
-            <a href="./fr/glossaire.html" class="footer__link">Glossaire</a>
-            <a href="./fr/contact.html" class="footer__link">Contact</a>
-            <a href="./fr/a-propos.html" class="footer__link">À propos</a>
+            <a href="/fr/biblio-replique.html" class="footer__link">Biblio-réplique</a>
+            <a href="/fr/glossaire.html" class="footer__link">Glossaire</a>
+            <a href="/fr/contact.html" class="footer__link">Contact</a>
+            <a href="/fr/a-propos.html" class="footer__link">À propos</a>
         </div>
         <hr class="footer__line">
         <div class="footer__content">
@@ -109,14 +109,14 @@
             </div>
             <p class="footer__p">Ce site est réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard.</p>
         </div>
-        <img src="./public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
+        <img src="/public/icons/Wave_logo_red.svg" alt="Abyssal Wave Red Logo">
         <div class="footer__bottom">
             <div class="footer__social">
-                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="./public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
-                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="./public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
-                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="./public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
+                <a href="https://github.com/SamuelCharasse" class="footer__social__link"><img src="/public/icons/github.svg" alt="Github red logo" class="footer__social__img"></a>
+                <a href="https://www.linkedin.com/in/samuel-charasse-aa5759145/" class="footer__social__link"><img src="/public/icons/linkedin.svg" alt=" Linkedin red logo" class="footer__social__img"></a>
+                <a href="https://twitter.com/Hasmed18" class="footer__social__link"><img src="/public/icons/x.svg" alt="X red logo" class="footer__social__img"></a>
             </div>
-            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="./public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
+            <a href="https://mmimontbeliard.com/" class="footer__bottom__link"><img src="/public/img/MMI_-_logo_quadri_-white.png" alt="MMI logo" class="footer__bottom__img"></a>
         </div>
     </footer>
 </body>
