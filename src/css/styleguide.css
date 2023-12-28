@@ -30,6 +30,13 @@
     --heading-3-letter-spacing: 4px;
     --heading-3-line-height: 150%;
     --heading-3-font-style: normal;
+    /* H4 */
+    --heading-4-font-family: "Futura-Bold", sans-serif;
+    --heading-4-font-weight: 400;
+    --heading-4-font-size: 16px;
+    --heading-4-letter-spacing: 0px;
+    --heading-4-line-height: 150%;
+    --heading-4-font-style: normal;
     /* Body 2 */
     --body-2-font-family: "Roboto", sans-serif;
     --body-2-font-weight: 300;

@@ -78,6 +78,7 @@
         </div>
         <h3 class="article__subtitle">The Impact of his Achievements</h3>
         <p class="article__content">Dennis Gansel’s works leave a lasting impression. «The Wave» has sparked lively discussions in classrooms and think tanks. Inviting viewers to reflect on their own behavior and ability to go with the flow. Gansel seeks not only to entertain, but to educate and enlighten.</p>
+        <h4 id="subTitle4">Filmography</h4>
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
             <button @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth" class="carrousel__btn carrousel__btn--avant" aria-label="slide précedant"><</button><button @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth" class="carrousel__btn carrousel__btn--apres" aria-label="slide suivant">></button>
             <div class="carrousel__parent--ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant='#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">

@@ -57,6 +57,14 @@ h3 {
     letter-spacing: var(--heading-3-letter-spacing);
     font-style: var(--heading-3-font-style);
 }
+h4 {
+    font-family: var(--heading-4-font-family);
+    font-size: var(--heading-4-font-size);
+    font-weight: var(--heading-4-font-weight);
+    line-height: var(--heading-4-line-height);
+    letter-spacing: var(--heading-4-letter-spacing);
+    font-style: var(--heading-4-font-style);
+}
 .btn {
     background-color: var(--shade-red-2);
     text-decoration: none;

@@ -78,6 +78,7 @@
         </div>
         <h3 class="article__subtitle">L'impact de ses réalisations</h3>
         <p class="article__content">Les œuvres de Dennis Gansel laissent une empreinte durable. "La Vague" a suscité des discussions animées dans les salles de classe et les cercles de réflexion. Invitant les spectateurs à réfléchir à leur propre comportement et à leur capacité à suivre le mouvement. Gansel ne cherche pas seulement à divertir, mais à éduquer et à éclairer.</p>
+        <h4 id="subTitle4">Filmographie</h4>
         <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
             <button @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth" class="carrousel__btn carrousel__btn--avant" aria-label="slide précedant"><</button><button @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth" class="carrousel__btn carrousel__btn--apres" aria-label="slide suivant">></button>
             <div class="carrousel__parent--ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant='#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
