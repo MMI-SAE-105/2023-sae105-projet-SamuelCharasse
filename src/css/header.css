@@ -5,7 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: var(--main-white);
+    background: linear-gradient(to bottom, var(--main-white) 80%, transparent 100%);
 }
 .header__menu {
     display: flex;
