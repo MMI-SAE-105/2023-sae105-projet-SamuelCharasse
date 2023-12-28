@@ -24,15 +24,15 @@
     position: absolute;
     top: 50%;
     top: calc(
-      min(500px, 100vw) / 16 * 9 / 2 + 1rem
-    ); /* centre verticalement ~50% vertical */
+      min(500px, 100vw) / 16 * 9 / 2 + 5rem
+    );
     transform: translateY(-50%); /* methode du point mort */
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
     border: none;
     display: grid;
-    background-color: rgba(236, 238, 237, 0.9);
+    background-color: rgba(236, 238, 237, 1);
     place-content: center;
     color: var(--main-black);
 }
