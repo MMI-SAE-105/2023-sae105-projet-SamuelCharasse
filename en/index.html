@@ -25,7 +25,7 @@
                 <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__img" src="/public/icons/wave-fill.svg" alt="Menu icon">
             </div>  
         </div>
-        <div id="mainNav" x-show="menuIsOpen" class="menu">
+        <div id="mainNav" x-show="menuIsOpen" class="menu">        <div :class="menuIsOpen ? 'menu__show' : 'menu'"></div>
             <div class="menu__header">
                     <img class="menu__header__img" src="/public/icons/Wave_logo_blue.svg" alt="Abyssal Wave Logo">
                     <img aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="menu__header__img" src="/public/icons/menu-closed.svg" alt="Close Menu icon">
