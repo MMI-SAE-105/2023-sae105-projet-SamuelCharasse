@@ -46,7 +46,7 @@
     color: var(--shade-blue-1);
     text-decoration: none;
 }
-div.menu {
+div.menu, .menu__show {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,16 @@ div.menu {
     width: 100vw;
     height: 100vh;
     background-color: var(--main-white);
+}
+div.menu {
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all .3s ease-out;
+}
+.menu__show {
+    visibility: visible;
+    transform: translateX(0);
+    transition: all .3s ease-out;
 }
 .menu__header {
     display: flex;
